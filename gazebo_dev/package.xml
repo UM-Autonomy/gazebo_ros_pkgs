@@ -20,9 +20,6 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <build_export_depend>libgazebo11-dev</build_export_depend>
-  <exec_depend>gazebo11</exec_depend>
-
   <export>
     <build_type>ament_cmake</build_type>
     <deprecated>
