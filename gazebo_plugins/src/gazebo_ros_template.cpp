@@ -50,7 +50,7 @@ void GazeboRosTemplate::Load(gazebo::physics::ModelPtr model, sdf::ElementPtr sd
 
   // The model pointer gives you direct access to the physics object,
   // for example:
-  RCLCPP_INFO(impl_->ros_node_->get_logger(), model->GetName().c_str());
+  RCLCPP_INFO(impl_->ros_node_->get_logger(), "%s", model->GetName().c_str());
 
   // Create a connection so the OnUpdate function is called at every simulation
   // iteration. Remove this call, the connection and the callback if not needed.
